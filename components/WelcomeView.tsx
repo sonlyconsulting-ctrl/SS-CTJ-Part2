@@ -14,12 +14,12 @@ export const WelcomeView: React.FC = () => {
       <div className="text-center max-w-4xl mx-auto space-y-4">
         <p className="text-xs sm:text-sm font-semibold tracking-[0.26em] uppercase text-ctj-gold">The Critical Thinker's Journey™ · Part 2</p>
         <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight">Exploring Ideas and Making Moves</h1>
-        <p className="text-xl text-ctj-silver">Foundation · Evidence · Experimentation · Creativity · Adaptation</p>
+        <p className="text-xl text-ctj-silver">Movement · Evidence · Experimentation · Creativity · Adaptation</p>
       </div>
 
       <section className="panel-platinum max-w-3xl mx-auto space-y-5">
         <p className="text-lg text-ctj-silver leading-relaxed">
-          Part 2 builds the foundation for clearer reasoning. Across ten days, you will make claims more explicit, separate fact from assumption, examine premises, and practice recognizing common biases and fallacies.
+          Part 2 turns reasoning into movement. Across ten days, you will test arguments, evaluate evidence, separate correlation from causation, use small experiments to break indecision, learn from failure, and adapt ideas through action.
         </p>
         <p className="text-ctj-muted leading-relaxed">
           The original curriculum is preserved, but the digital experience separates a focused core session from optional deeper work so you can engage without turning every day into a writing marathon.
@@ -36,12 +36,12 @@ export const WelcomeView: React.FC = () => {
         <div className="panel-dark">
           <p className="text-xs uppercase tracking-[0.2em] text-ctj-blue">Week 1</p>
           <h2 className="text-xl font-semibold mt-2">Evidence & Experimentation</h2>
-          <p className="text-sm text-ctj-muted mt-2">Logic, statements, truth and belief, deductive and inductive reasoning, and the power of a premise.</p>
+          <p className="text-sm text-ctj-muted mt-2">Testing arguments, source evaluation, causation, decision movement, and learning from failure.</p>
         </div>
         <div className="panel-dark">
           <p className="text-xs uppercase tracking-[0.2em] text-ctj-blue">Week 2</p>
           <h2 className="text-xl font-semibold mt-2">Creative Action & Adaptation</h2>
-          <p className="text-sm text-ctj-muted mt-2">creative experiments, lateral action, adaptive mental models, actionable analogies, and breakthrough experiments.</p>
+          <p className="text-sm text-ctj-muted mt-2">Creative experiments, lateral action, adaptive mental models, actionable analogies, and breakthrough experiments.</p>
         </div>
       </section>
 
