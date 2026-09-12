@@ -21,7 +21,7 @@ export const ExportView: React.FC = () => {
   const buildText = () => {
     const lines: string[] = [
       "THE CRITICAL THINKER'S JOURNEY",
-      'PART 2: BUILDING CLARITY AND CONFIDENCE',
+      'PART 2: EXPLORING IDEAS AND MAKING MOVES',
       '',
       `Exported: ${new Date().toLocaleString()}`,
       ''
@@ -83,7 +83,7 @@ export const ExportView: React.FC = () => {
     };
 
     write("THE CRITICAL THINKER'S JOURNEY", 11, true);
-    write('PART 2: BUILDING CLARITY AND CONFIDENCE', 16, true);
+    write('PART 2: EXPLORING IDEAS AND MAKING MOVES', 16, true);
     y += 3;
 
     DAYS.forEach((day) => {
